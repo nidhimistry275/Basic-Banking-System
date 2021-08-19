@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>Basic Banking System</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<!-- Navbar (sit on top) -->
+<nav class="navbar navbar-expand-md" style="background-color: #106485;">
+    <a class="navbar-brand" href="index.html" style="color : #fffff5ec;"><b>SPARKS FOUNDATION</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color : #fffff5ec; font-size:16px ;"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#about" style="color :#fffff5ec; font-size:16px;"><b>About</b></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features" style="color :#fffff5ec; font-size:16px;"><b>Services</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" style="color :#fffff5ec; font-size:16px;"><b>Contact US</b></a>
+            </li>
+          </ul>
+        </div>
+     </nav>
+<!-- Header with full-height image -->
+<header class="bgimg-1 ">
+    <div class="containt">
+    <p>Transfer Money Quickly!</p>
+    <p>Welcome to the digital money </p>
+    <p>transfer portal of our bank.</p>
+<a href="transaction.html"><button style="background-color : #0c4063; border:5px solid #0c4063; border-radius: 8px; font-size: 0.6em; color:#fffff5ec;">Start Transaction</button></a>
+    </div>
+  </header>
+  <section id="about" style="background-color: #efefef;">
+    <div class=" container1 container">
+      <h1>About Us</h1>
+      <div class="row">
+        <p id="aboutpara">All Citizens Bank has been creating banking relationships by focusing on our customer and helping them achieve more for their business, their employees, and the communities they serve. Our founder,was an enterprising dairy
+          farmer and small
+          business owner. He saw a need to support other business owners in his community by helping them preserve and enhance the value of their companies. He shared his vision with a group of local business leaders who cared deeply about their
+          community, and together they set out to design a new banking experience.We are proud to be in the position to assist entrepreneurs with opportunities to foster and grow their businesses. Our customers’ success is our success. We are able to
+          build long-standing relationships with each customer by treating them the same way we would want to be treated. In fact, many of our customers have banked with us for decades. Our unwavering commitment to personal service is the reason we
+          are consistently recognized as one of the top-performing banks in the nation.
+        </p>
+      </div>
+    </div>
+    </div>
+    <section id="features" style="background-color:#0c4063">
+      <h1>Our Services</h1>
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+       <div class="feature-box col-lg-4 ">
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!--footer-->
+<section class="mb-6" id="contact"> 
+  <footer>
+  <h1 class="info">Contact us</h1>
+  <div class="row">
+      <div class="col-md-6 mb-md-0 mb-6">
+          <form id="contact-form" name="contact-form">
+              <div class="row">   
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+                  </div>
+                </div>
+          </form>
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();" style="background-color: #0c4063; color:#efefef;">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+  </div>
+</footer>
+</section>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+  <!-- aos data  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+    });
+  </script>
+</body>
+</html>

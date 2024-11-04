@@ -10,6 +10,5 @@
 - Javascript
 - Bootstrap
 
-### Hosting URL :
-https://github.com/nidhimistry275/Basic-Banking-System
+
 
